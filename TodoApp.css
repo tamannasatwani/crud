@@ -1,0 +1,44 @@
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-task {
+    margin-bottom: 10px;
+
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(69, 107, 107);
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 5px solid #15060679;
+    background-color: rgb(70, 140, 194);
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .task-list li.editing {
+    background-color: #1e0634; 
+  }
+  
+  .task-list li button {
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: rgba(82, 32, 59, 0.266);
+  }
+  
